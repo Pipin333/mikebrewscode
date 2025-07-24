@@ -2,7 +2,7 @@
   "name": "mikebrewscode",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://Pipin333.github.io/mikebrewscode",
+  "homepage": "https://pipin333.github.io/mikebrewscode",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
