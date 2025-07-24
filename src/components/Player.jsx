@@ -43,6 +43,7 @@ export default function Player({ onSectionChange, section }) {
     <div className="absolute bottom-4 right-4 bg-neutral-900 bg-opacity-80 backdrop-blur-md p-4 rounded-xl shadow-xl flex flex-col items-end text-sm w-80 space-y-2">
       <div className="text-white font-semibold">
         🎵 {setlist[trackIndex].title} — {setlist[trackIndex].artist}
+        <div className="text-red-500 font-bold text-xl">🎧 Toodles Player v2 ACTIVADO</div>
       </div>
 
       <div className="flex gap-2 items-center">
