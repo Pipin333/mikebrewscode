@@ -29,7 +29,9 @@ export default function AboutPage() {
           <li>Habilidades blandas: Atención al cliente, liderazgo operativo, optimización de procesos</li>
           <li>Cómo me comunico: Español (nativo), Inglés (intermedio)</li>
           <li>Qué me mueve: Música, Videojuegos, Perfumeria, Automovilismo</li>
+
         </ul>
+        <p className="text-xs italic text-gray-500">Última modificación: {new Date().toLocaleDateString()}</p>
       </div>
     </div>
   );
