@@ -3,7 +3,7 @@ export default function CookieEaster() {
     <div
       className="absolute bottom-2 left-2 cursor-pointer"
       onClick={() => {
-        alert("🏆 Toodles te está observando.\nThese aren't the cookies you're clicking for.");
+        alert("🏆 Toodles te está observando.");
         localStorage.setItem("cookiesAccepted", true);
       }}
     >
